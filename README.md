@@ -1,2 +1,2 @@
 # DrakesEquation
-A calculator that uses Drake's Equation.
+Run `python3 script.py`, that's it.

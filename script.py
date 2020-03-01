@@ -1,5 +1,5 @@
 # Main file for the Drake's equation calculator
-import numpy as np
+# import numpy as np
 	
 def askuser():
   rstar = input("What is the rate of formation of stars in the galaxy?")
@@ -14,7 +14,9 @@ def askuser():
 
 
   
-list = askuser()
+lst = askuser()
 
-result = np.prod(np.array(list)) 
-print(result)
+product = 1
+for number in lst:
+    product = float(number) * float(product)
+print(product)
